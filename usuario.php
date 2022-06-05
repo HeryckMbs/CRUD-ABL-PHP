@@ -31,7 +31,7 @@
     </div>
 
     <?php
-    //inclui a operação escolhida pelo usuário
+    //inclui a operação escolhida pelo usuário e inclusão do arquivo de configuração do banco de Dados
     include_once("config.php");
     switch (@$_REQUEST["page"]) {
         case "cadastro":
