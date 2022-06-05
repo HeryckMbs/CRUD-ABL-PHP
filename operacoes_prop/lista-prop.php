@@ -1,12 +1,12 @@
 
 
 <?php
-
+//Inner join para juntar a tabela usuario e usuario_apt, que resultará numa tabela que relaciona os apartamentos de um usuário 
 $result = mysqli_query($mysqli, "SELECT * FROM usuario_apt INNER JOIN usuario WHERE CPF=CPF_usu");
 $rows_table = $result->num_rows;
 
 
-
+//impressão dos apartamentos de todos os usuários
 if ($rows_table > 0) {
     print "<h2> Lista de Proprietários</h2>";
     print "<div class=cont-tab>";
@@ -43,12 +43,12 @@ if ($rows_table > 0) {
 }
 
 
-//apartamentos
+// todos os apartamentos
 $result_apt = mysqli_query($mysqli, "SELECT * FROM apartamento ORDER BY Id_Apt DESC");
 $rows_usu = $result_apt->num_rows;
 
 print "<h2>Tabela de Apartamentos Cadastrados</h2>";
-
+//impressão da tabela apartamentos para tornar a consulta mais evidente e fácil de ser compreendida
 if ($rows_table > 0) {
     print "<div class=cont-tab>";
     print "<table id='tabela-apt' class='table table-dark table hover table-striped table-bordered border-success'>";
