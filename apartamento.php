@@ -32,7 +32,7 @@
         <a class="btn btn-outline-success btn-lg" href="?page=listar">Listar</a>
     </div>
     <?php
-    //inclusão da operação selecionada pelo usuário
+    //inclusão da operação selecionada pelo usuário e inclusão do arquivo de configuração do banco de dados
     include_once("config.php");
     switch (@$_REQUEST["page"]) {
         case "cadastro":
