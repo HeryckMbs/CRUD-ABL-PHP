@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,400&family=Poppins:wght@200;300;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+html,
+body,
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #121212;
+}
+
+button {
+    font-weight: bold;
+}
+
+#inputp {
+    margin: 30px auto;
+    width: 30vw;
+    height: 40px;
+    background-color: #121212;
+    border-radius: 10px;
+    border: 0.5px solid #198754;
+    color: #198754;
+    font-size: 14pt;
+}
+
+#tabela-apt {
+    width: 55vw;
+}
+
+#tabela-apt1 {
+    width: 60vw;
+}
+
+#tabela-apt2 {
+    width: 70vw;
+}
+
+.cont-tab {
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+}
+
+.header {
+    text-align: center;
+    background-color: #202A44;
+    margin: 0;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header h1 {
+    font-size: 43pt;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.h1-pag {
+    padding: 10px 30px;
+    margin: 0 auto;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.boa {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: #121212;
+    text-align: center;
+}
+
+.opcoes {
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+    align-content: center;
+}
+
+li {
+    list-style: none;
+    margin: 30px;
+}
+
+.opcoes a {
+
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 40px 20px 40px;
+    border: 1px solid black;
+    color: #fafafa;
+    background-color: #202A44;
+    border-radius: 15px;
+}
+
+.opcoes a:hover {
+    opacity: 70%;
+}
+
+.funcoes {
+    padding: 30px 20px;
+
+    display: flex;
+    background-color: #121212;
+    justify-content: space-around;
+
+
+}
+
+.dados {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #2a2a2a;
+    border: 0.3px solid white;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #202A44;
+    ;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.btnform {
+    margin: 0 auto;
+    width: auto;
+    height: 40px;
+    background-color: #121212;
+    border-radius: 10px;
+    border: 0.5px solid #198754;
+    color: #198754;
+    font-size: 14pt;
+}
+
+.btnform:hover {
+    background-color: #198754;
+    color: white;
+}
+
+.menu {
+    margin-left: 15vw;
+}
+
+.btnmenu {
+    margin: 0 10px 0 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.selectform {
+    margin: 30px auto;
+    width: 30vw;
+    height: 40px;
+    background-color: #121212;
+    border-radius: 10px;
+    border: 0.5px solid #198754;
+    color: #198754;
+    font-size: 14pt;
+}
+
+h2 {
+    text-align: center;
+}
+
+.users {
+    text-align: center;
+}
