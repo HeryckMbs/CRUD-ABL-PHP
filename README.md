@@ -7,7 +7,7 @@
 <br>
 -Na pasta BD existe um arquivo de exportação parar criar um banco de dados igual ao que utilizei no projeto
 <br>
--Esse arquivo vem com o script SQL e alguns dados que vieram no momento da exportação
+-Esse arquivo vem com o script SQL para criar as tabelas e restrições usadas. E alguns dados que vieram no momento da exportação
 <br>
 <a href="https://youtu.be/iuVrRLR_m0w">Link do vídeo</a>
 
