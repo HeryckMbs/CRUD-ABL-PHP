@@ -1,6 +1,9 @@
 # CRUD-ABL-PHP
--Modelagem de dados está na pasta evidências
+-Modelagem de dados está na pasta evidência
+<br>
 -Foi utilizado PHP,MYSQL,CSS puro, Bootstrap e JS
+<br>
 -Foi feito também um vídeo de apresentação do CRUD, demonstrando seu funcionamento
+<br>
 <a href="https://youtu.be/iuVrRLR_m0w">Link do vídeo</a>
 
