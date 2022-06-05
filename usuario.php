@@ -31,6 +31,7 @@
     </div>
 
     <?php
+    //inclui a operação escolhida pelo usuário
     include_once("config.php");
     switch (@$_REQUEST["page"]) {
         case "cadastro":
