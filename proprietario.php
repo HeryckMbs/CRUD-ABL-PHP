@@ -39,6 +39,7 @@
         <a class="btn btn-outline-success btn-lg" href="?page=listar">Listar</a>
     </div>
     <?php
+    //inclusão da operação selecionada pelo usuário e inclusão da conexão com o Banco de Dados
     include_once("config.php");
     switch (@$_REQUEST["page"]) {
         case "cadastro":
