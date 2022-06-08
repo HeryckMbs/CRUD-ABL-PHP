@@ -4,7 +4,7 @@
 //manipulação real dos dados
 
 
-switch (@$_REQUEST["acao"]) {
+switch(@$_REQUEST["acao"]) {
     case 'cadastrar':
         //inserção
         $Id_Apt = $_POST["Id_Apt"];
