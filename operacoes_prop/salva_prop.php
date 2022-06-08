@@ -1,4 +1,4 @@
-<?ph
+<?php
 //utilizar variáveis globais aqui deram certo conflito então tive que coloca-las como locais
 //cadastro de proprietários de cada apartamento
 //manipulação real dos dados
