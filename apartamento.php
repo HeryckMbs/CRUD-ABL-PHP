@@ -1,17 +1,16 @@
+
+<?php
+require_once('head.php');
+
+?>
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
+   <?php
+   $head = new Head();
+   $head->setHead();
+   ?>
 </head>
 
 <body>
@@ -33,8 +32,10 @@
     </div>
     <?php
     //inclusão da operação selecionada pelo usuário e inclusão do arquivo de configuração do banco de dados
+
     include_once("config.php");
     switch (@$_REQUEST["page"]) {
+        
         case "cadastro":
             include("./operacoes_apartamento/cadastro_apt.php");
             break;
